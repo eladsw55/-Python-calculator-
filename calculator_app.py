@@ -80,7 +80,6 @@ def on_equal_click():
     entry.delete(0, tk.END)
     entry.insert(0, str(result))
 
-    # איפוס למהלך הבא
     first_num = None
     operator = None
 
@@ -155,3 +154,4 @@ btn_clear = tk.Button(
 btn_clear.grid(row=5, column=0, padx=5, pady=5)
 
 window.mainloop()
+
